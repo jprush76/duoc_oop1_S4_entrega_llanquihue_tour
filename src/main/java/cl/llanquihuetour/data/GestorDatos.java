@@ -27,7 +27,7 @@ public class GestorDatos {
                 }
                 String[] campos = linea.split(";", -1);
                 if(campos.length != 3) {
-                    System.err.println("Error línea " + linea + ": Se omite linea debido a errores encontrados.");
+                    System.err.println("Error línea " + numLinea + ": Se omite linea debido a errores encontrados.");
                     continue;
                 }
 
