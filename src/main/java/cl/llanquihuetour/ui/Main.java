@@ -6,6 +6,7 @@ import cl.llanquihuetour.model.Tour;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class Main {
     public static void main(String[] args) {
@@ -34,6 +35,19 @@ public class Main {
             if (!toursCaros) {
                 System.out.println("No existen tours con precios");
                 System.out.println("superior a 70000 por persona.");
+            }
+
+            // FILTRO: se imprimen solo los tours de medio día
+            System.out.println("\nB. TOURS DE MEDIO DÍA");
+            boolean toursMedioDia = false;
+            for (Tour tour : tours) {
+                if (tour.getDuracion().equals("Half Day")) {
+                    System.out.println(tour);
+                    toursMedioDia = true;
+                }
+            }
+            if (!toursMedioDia) {
+                System.out.println("No existen tours para medio día.");
             }
 
         } catch (IOException e) {
