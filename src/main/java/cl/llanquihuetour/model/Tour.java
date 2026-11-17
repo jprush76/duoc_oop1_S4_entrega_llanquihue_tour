@@ -1,5 +1,9 @@
 package cl.llanquihuetour.model;
 
+/**
+ * Clase que estructura los Tours
+ * Contiene nombre, duración del tour y precio.
+ */
 public class Tour {
     private String nombre;
     private String duracion;
