@@ -11,7 +11,7 @@
 ---
 
 ## 📘 Descripción general del sistema
-Este proyecto corresponde a la Entrega Formativa Semana 4 de la asignatura *Desarrollo Orientado a Objetos I*. Se trata de una estructura básica de paquetes y clases para la **Agencia de turismo Llanquihue Tour**, desarrollado en Java, cuyo objetivo es recuperar información de un archivo de texto, limpiar la data y insertarla en un ArrayList, aplicando los principios de encapsulamiento.
+Este proyecto corresponde a la Entrega Formativa Semana 4 de la asignatura *Desarrollo Orientado a Objetos I*. Se trata de una estructura básica de paquetes y clases para la **Agencia de turismo Llanquihue Tour**, desarrollado en Java, cuyo objetivo es recuperar información de un archivo de texto, limpiar la data e insertarla en un ArrayList, aplicando los principios de encapsulamiento.
 
 El proyecto fue desarrollado a partir de un caso contextualizado y proponiendo una solución básica estructurada y reutilizable.
 
@@ -44,7 +44,7 @@ git clone https://github.com/jprush76/duoc_oop1_S4_entrega_llanquihue_tour.git
 
 3. Ejecuta el archivo `Main.java` desde el paquete `ui`.
 
-4. Se verán las instancias de ejemplo por consola.
+4. Se verá listado de tours y filtros de estos por consola.
 
 
 ---
